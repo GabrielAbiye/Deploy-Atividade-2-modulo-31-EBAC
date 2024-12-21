@@ -8,7 +8,6 @@ import streamlit as st
 from datetime import datetime
 from sklearn.preprocessing import StandardScaler
 from gower import gower_matrix
-from datetime import datetime
 from io import BytesIO
 
 from scipy.cluster.hierarchy import linkage , fcluster , dendrogram
